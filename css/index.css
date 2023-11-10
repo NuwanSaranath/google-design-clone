@@ -324,3 +324,98 @@ body{
         justify-content: space-evenly;
     }
 }
+@media all and (min-width: 1200px) {
+    #footer-left{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: relative;
+    }
+    #footer-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: relative;
+    }
+    #footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 1px solid rgb(218,220,224);
+    }
+    #footer-right .footer-link{
+        padding-left:37px ;
+    }
+    #footer-right .footer-link:last-child{
+        position: relative;
+        padding-right:43px ;
+    }
+}
+@media all and (max-width: 830px) {
+    #header{
+        height: 70px;
+    }
+    #body{
+        height: calc(100vh - 70px);
+    }
+    #footer-container{
+        height: 178px;
+    }
+    #footer-left{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height:50% ;    
+    }
+    #footer-right{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height:50% ;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-top: 1px solid rgb(218,220,224);
+        height: 110px;
+        display: flex;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 0px;    
+    }
+    #country{
+        height: 1px;
+        color: rgb(129,119,122);
+        padding-top: 15px;
+        position: relative;
+        font-size: 1.2rem;
+        letter-spacing: 0.25px;
+        padding-left: 38px;
+        height: 30px;  
+    }
+    .footer-link{
+        color: rgb(112,117,126);
+        font-size: 1.1rem;
+        padding-right: 10px;
+        text-decoration: none;
+        position: relative;
+    }
+    #footer-right .footer-link:last-child{
+        position: relative;
+    }
+}
+@media all and (max-width: 760px) {
+    #header{
+        height: 70px;
+    }
+    #search-box-container{
+        width: 95%;
+    }
+    
+}
