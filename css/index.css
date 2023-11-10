@@ -249,3 +249,78 @@ body{
 .language:hover{
     text-decoration: underline;
 }
+
+@media all and (prefers-color-scheme: dark) {
+    * {
+        background-color:rgb(32,33,36);
+        color: rgb(230, 230, 230);
+    }
+    #google-search-btn #i-am-feeling-lucky-btn {
+        border-color: rgb(48,49,52);
+    }
+    #header{
+        background-color:rgb(32,33,36);   
+    }
+   #header>a{
+        color:rgb(226,226,227);
+    }
+    #apps-icon{
+        color:rgb(226,226,227);
+    }
+    #experiment-txt{
+        color: red;
+        position: absolute;
+        top: 50px;
+        font-size: 1.1rem;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 8px;
+        border-radius: 10px;
+    }
+    #google-image{
+        content: url("/img/dark-google.png");
+        color:rgb(226,226,227);
+    }
+    #footer-container{
+        background-color:rgb(23,23,23);   
+    }
+    #country, #footer{
+        color: #919090;
+        background-color:rgb(23,23,23);
+    }
+    #footer div{
+        background-color:rgb(23,23,23);
+    }
+    #footer div a{
+        color: #919090;
+        background-color:rgb(23,23,23);
+    }
+    #sign-in-btn{
+        background-color: #83b0eb;
+        color: rgb(23,23,23);
+    }
+    #google-lucky-buttons button{
+        background-color:rgb(48,49,52);
+        color:rgb(226,226,227);
+        border-radius: 4px;
+    }
+    #google-lucky-buttons button:hover{
+        border: 0.5px solid rgb(97, 95, 95);
+    }
+    #search-box-container{
+        border: 0.5px solid rgb(97, 95, 95);
+    }
+    #search-icon{
+        color: rgb(187, 178, 178);
+    }
+    #google-offer{
+        color: rgb(212, 202, 202);
+    }
+    #language-container a{
+        color: #8bb1e2;
+    }
+    #footer{
+        border-top: 1px solid rgb(63, 61, 61);
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
