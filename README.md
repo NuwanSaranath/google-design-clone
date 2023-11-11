@@ -8,6 +8,15 @@ It's essential to emphasize that this clone project serves purely educational an
 
 
 ## Features
+01. Responsive web page
+02. Dark mode and light mode.
+
+![cheese!](/screenshots/dark-mode-1.png)
+![cheese!](/screenshots/dark-mode-3.png)
+![cheese!](/screenshots/dark-mode-4.png)
+![cheese!](/screenshots/light-mode-1.png)
+![cheese!](/screenshots/light-mode-3.png)
+![cheese!](/screenshots/light-mode-4.png)
 
 
 

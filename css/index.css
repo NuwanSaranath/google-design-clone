@@ -185,7 +185,7 @@ body{
     bottom: 0;
 }
 #country{
-    color: rgb(129,119,122);
+    color: rgb(32,33,36);
     padding-top: 10px;
     position: relative;
     font-size: 1.2rem;
@@ -195,13 +195,14 @@ body{
 #footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     border-top: 1px solid rgb(218,220,224);
     padding-top: 23px;
     padding-bottom: 10px;
-    margin-left: 15px;
+    margin-left: 0;
 }
 .footer-link{
-    color: rgb(112,117,126);
+    color: rgb(32,33,36);
     font-size: 1.1rem;
     padding-left: 33.5px;
     text-decoration: none;
@@ -255,6 +256,11 @@ body{
         background-color:rgb(32,33,36);
         color: rgb(230, 230, 230);
     }
+    #body{
+        position: relative;
+        top: 0px;
+        height: calc(100vh - 1100px);
+    }
     #google-search-btn #i-am-feeling-lucky-btn {
         border-color: rgb(48,49,52);
     }
@@ -277,21 +283,21 @@ body{
         border-radius: 10px;
     }
     #google-image{
-        content: url("/img/dark-google.png");
+        content: url("/img/google-dark.png");
         color:rgb(226,226,227);
     }
     #footer-container{
         background-color:rgb(23,23,23);   
     }
     #country, #footer{
-        color: #919090;
+        color: rgb(232, 234, 236);
         background-color:rgb(23,23,23);
     }
     #footer div{
         background-color:rgb(23,23,23);
     }
     #footer div a{
-        color: #919090;
+        color: rgb(232, 234, 236);
         background-color:rgb(23,23,23);
     }
     #sign-in-btn{
@@ -319,12 +325,12 @@ body{
         color: #8bb1e2;
     }
     #footer{
-        border-top: 1px solid rgb(63, 61, 61);
+        border-top: 1px solid rgb(32, 33, 36);
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: flex-start;
     }
 }
-@media all and (min-width: 1200px) {
+@media all and (max-width: 1200px) {
     #footer-left{
         display: flex;
         flex-direction: row;
